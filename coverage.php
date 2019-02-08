@@ -1,0 +1,1 @@
+<?php include 'modHeader.php';?><div class="pageCoverPanel shortHeight"> <img class="pageCoverImg" src="./img/CoveragePCP.png" alt="Page Cover"><div class="pageCoverHeading">Coverage <span class="thinText">that</span> WORKS</div></div><img class="coverageMapImage" src="./img/PF2.jpg"><?php include 'modFooter.php';?>

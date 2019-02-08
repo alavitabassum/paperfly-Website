@@ -1,0 +1,8 @@
+@font-face {
+	font-family: "paperfly";
+	src: url('../fonts/Helvetica LT 76 Bold Italic.ttf') format('truetype');
+}
+
+h1 {
+	text-align: center;
+}
