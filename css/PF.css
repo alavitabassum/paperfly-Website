@@ -38,7 +38,7 @@ body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    background-color: #17479e;
+    background-color: #fff;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
@@ -1543,13 +1543,20 @@ Class name automatically added to element */
 #scroller > li{
     position: relative;
 }
-#scroller > li > img{
+#scroller > li > a> img{
     width: 200px;
     height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#scroller > li > a{
+    width: 50%;
+    height: 70%;
+    padding: 60px;
+    margin: 150px;
 }
 
 .newsBox{
@@ -1994,6 +2001,7 @@ only screen and (max-width: 760px),
   
   header.masthead .masthead-content .masthead-subheading {
     font-size: 2rem;
+    text-shadow: 2px 0px 5px white;
   }
   
   header.masthead .bg-circle {
@@ -2034,14 +2042,33 @@ only screen and (max-width: 760px),
    */
   @media (min-width: 992px) {
     header.masthead {
-      padding-top: calc(17rem + 330px);
-      padding-bottom: 17rem;
+      padding-top: calc(13rem + 105px);
+      padding-bottom: 13rem;
     }
     header.masthead .masthead-content .masthead-heading {
-      font-size: 6rem;
+      font-size: 4.5rem;
+      margin-top: -20%;
+      margin-right: -4%;
     }
     header.masthead .masthead-content .masthead-subheading {
       font-size: 4rem;
+      text-shadow: 2px 0px 5px white;
+    }
+  }
+
+  @media (max-width: 768px) {
+    header.masthead {
+      padding-top: calc(13rem + 105px);
+      padding-bottom: 13rem;
+    }
+    header.masthead .masthead-content .masthead-heading {
+
+      margin-top: -35%;
+      letter-spacing: -0.1rem;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 4rem;
+      text-shadow: 2px 0px 5px white;
     }
   }
   
@@ -2110,7 +2137,7 @@ only screen and (max-width: 760px),
   padding-bottom: .5em;
 }
 .rwd-table td:before {
-  content: attr(data-th) ": ";
+  /* content: attr(data-th) ": "; */
   font-weight: bold;
   width: 6.5em;
   display: inline-block;
@@ -2215,11 +2242,28 @@ only screen and (max-width: 760px),
 
 
 .career-title{
-    text-align: center;
-    color: #17479e;
-    font-weight: 400 !important;
+    text-align: right;
+    font-weight: 600 !important;
     text-transform: uppercase;
-    font-size: 2.5rem!important;
+    text-shadow: 2px 0px 5px #212529;
+
+}
+
+.career-subtitle{
+    text-align: right;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    
+
+}
+
+ .paper{
+    color: #00aeef;
+    text-shadow: 2px 0px 5px white;
+}
+.fly{
+    color: #17479e;
+    text-shadow: 2px 0px 5px white;
 }
 .career-p{
     text-align: center;
@@ -2258,4 +2302,44 @@ only screen and (max-width: 760px),
 }
 .pic-5 {
     padding: 2rem!important;
+    padding-bottom: 1rem !important;
 }
+
+.quotation{
+    font-size: 25px;
+    margin: 0 auto;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+  }
+  
+  .quotation:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #ccc;
+    font-size: 2.5em;
+  }
+  .quotation::after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #ccc;
+    font-size: 2.5em;
+  }
+  footer{
+    margin:0;
+    text-align: right;
+    font-size: 1.25em;
+    font-style: italic;
+  }
+
+  

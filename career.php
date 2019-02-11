@@ -10,9 +10,9 @@
 <header class="masthead text-center text-white">
     <div class="masthead-content">
       <div class="container">
-        <!-- <h1 class="masthead-heading mb-0"></h1> -->
-        <!-- <h2 class="masthead-subheading mb-0">CAREER AT PAPERFLY</h2>
-        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Apply Now!</a> -->
+         <h2 class="masthead-heading mb-0 career-title">CAREER AT PAPERFLY</h2>
+       <!-- <h2 class="masthead-subheading mb-0 career-subtitle"><span class="paper">PAPER</span><span class="fly">FLY</span></h2> -->
+        <!-- <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Apply Now!</a> -->
       </div>
     </div>
 
@@ -24,10 +24,13 @@
        
         <div class="col-lg-12 order-lg-12">
           <div class="pic-5">
-            <h2 class="display-4 career-title">CAREER AT PAPERFLY</h2> 
-            <p class="career-p">Andy Core, an expert in Work-Life Balance, Well Being and Peak Human Performance has quoted,
-                 “Once you’ve found the perfect mix of employees in your workplace, the next step is making sure everyone is doing well on a daily basis.”
+            <!-- <h2 class="display-4 career-title">CAREER AT PAPERFLY</h2>  -->
+          
+            <blockquote><p class="quotation"> 
+                 Once you’ve found the perfect mix of employees in your workplace, the next step is making sure everyone is doing well on a daily basis.
             </p>
+        <footer>— quoth Andy Core, an expert in Work-Life Balance,<br> Well Being and Peak Human Performance </footer>
+        </blockquote> 
           </div>
         </div>
       </div>
@@ -39,7 +42,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="pic-5">
-            <img class="img-fluid " src="img/c1.png" alt="">
+            <img class="img-fluid " src="img/c3.png" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
@@ -84,7 +87,7 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="pic-5">
-            <img class="img-fluid " src="img/c3.png" alt="">
+            <img class="img-fluid " src="img/c1.png" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
@@ -115,12 +118,12 @@
                     <th>Job Description</th>
                 </tr>
                 <tr>
-                    <td data-th="Movie Title">Software Engineer</td>
-                    <td data-th="Genre">Software Development</td>
+                    <td data-th="Movie Title">IT Support</td>
+                    <td data-th="Genre">Minimum 1 year</td>
                     <td data-th="Year">1st March</td>
-                    <td data-th="Gross"><a target="_blank"  href="http://paperfly.com.bd/Job1.pdf"  class="jd-btn">View</a></td>
+                    <td data-th="Gross"><a target="_blank"  href="http://paperfly.com.bd/vacancy1.pdf"  class="jd-btn">View</a></td>
                 </tr>
-                <tr>
+             <!--    <tr>
                     <td data-th="Movie Title">IT Support</td>
                     <td data-th="Genre">Technical</td>
                     <td data-th="Year">1st March</td>
@@ -131,7 +134,7 @@
                     <td data-th="Genre">HR</td>
                     <td data-th="Year">1st March</td>
                     <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/Job1.pdf" class="jd-btn">View</a></td>
-                </tr>
+                </tr> -->
                 </table>
         </div>
        

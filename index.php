@@ -25,22 +25,22 @@
     <div class="hScrollerHolder">
         <p class="hScrollerHeading">Delivering Happiness For</p>
         <ul id="scroller">
-            <li><img src="img/Logo%20Daraz.png"></li>
-            <li><img src="img/Logo%20AjkerDeal.jpg" style="height: 150px"></li>
-            <li><img src="img/Logo%20Shoparu.com.jpg"></li>
-            <li><img src="img/Logo%20Bagdoom.com.png"></li>
-            <li><img src="img/Logo%20Kiksha.jpg"></li>
-            <li><img src="img/Logo%20Rokomari.png"></li>
-            <li><img src="img/Logo%20Aarong.gif"></li>
-            <li><img src="img/Logo%20BanglaShoppers.com.jpg"></li>
-            <li><img src="img/Logo%20Bikroy.com.jpg"></li>
-            <li><img src="img/Logo%20CatsEye.jpg" style="height: 150px; width: auto;"></li>
-            <li><img src="img/Logo%20DanCake.jpg"></li>
-            <li><img src="img/Logo%20Ecstacy.png"></li>
-            <li><img src="img/Logo%20Fdl%20Samsung.png"></li>
-            <li><img src="img/Logo%20grameenphone.jpg" style="height: 70px"></li>
-            <li><img src="img/Logo%20Monno.png"></li>
-            <li><img src="img/Logo%20Rotho.gif"></li>
+            <li><a target="_blank" href="https://www.daraz.com.bd/"><img src="img/Logo%20Daraz.png"></a></li>
+            <li><a target="_blank" href="https://ajkerdeal.com/"><img src="img/Logo%20AjkerDeal.jpg" style="height: 150px"></a></li>
+            <li><a target="_blank" href="https://shoparu.com/"><img src="img/Logo%20Shoparu.com.jpg"></a></li>
+            <li><a target="_blank" href="https://www.bagdoom.com/"><img src="img/Logo%20Bagdoom.com.png"></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/kikshadotcom/"><img src="img/Logo%20Kiksha.jpg"></a></li>
+            <li><a target="_blank" href="https://www.rokomari.com/book"><img src="img/Logo%20Rokomari.png"></a></li>
+            <li><a target="_blank" href="http://www.aarong.com/"><img src="img/Logo%20Aarong.gif"></a></li>
+            <li><a target="_blank" href="https://www.banglashoppers.com/"><img src="img/Logo%20BanglaShoppers.com.jpg"></a></li>
+            <li><a target="_blank" href="https://bikroy.com/en"><img src="img/Logo%20Bikroy.com.jpg"></a></li>
+            <li><a target="_blank" href="https://catseye.com.bd/"><img src="img/Logo%20CatsEye.jpg" style="height: 150px; width: auto;"></a></li>
+            <li><a target="_blank" href="https://www.dancake.dk/Page/655.html"><img src="img/Logo%20DanCake.jpg"></a></li>
+            <li><a target="_blank" href="https://ecstasybd.com/"><img src="img/Logo%20Ecstacy.png"></a></li>
+            <li><a target="_blank" href="http://estore.fdl.com.bd/"><img src="img/Logo%20Fdl%20Samsung.png"></a></li>
+            <li><a target="_blank" href="https://www.grameenphone.com/"><img src="img/Logo%20grameenphone.jpg" style="height: 70px"></a></li>
+            <li><a target="_blank" href="http://www.monno.com/public/"><img src="img/Logo%20Monno.png"></a></li>
+            <li><a target="_blank" href="http://www.rohto.com.bd/"><img src="img/Logo%20Rotho.gif"></a></li>
         </ul>
     </div>
     <?php include 'modFooter.php';?>
