@@ -10,7 +10,7 @@
 <header class="masthead text-center text-white">
     <div class="masthead-content">
       <div class="container">
-         <h2 class="masthead-heading mb-0 career-title">CAREER AT PAPERFLY</h2>
+        <!--  <h2 class="masthead-heading mb-0 career-title">CAREER AT PAPERFLY</h2> -->
        <!-- <h2 class="masthead-subheading mb-0 career-subtitle"><span class="paper">PAPER</span><span class="fly">FLY</span></h2> -->
         <!-- <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Apply Now!</a> -->
       </div>
@@ -109,32 +109,75 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12 order-lg-12 apply_now_section">
-                    <h3>Current Openings<span><a target="_blank" href="https://script.google.com/macros/s/AKfycbxmVudVruPvfQJvhWF5nMdIbF2OzOw1DQfhSsdKRx0hDdxMz_he/exec" class="apply-btn">Upload resume</a></span></h3>
-                <table class="rwd-table">
+                    <h3>Current Openings</h3>
+                    <span>Send us your resume at <b style="color:#17479e;">career@paperfly.com.bd</b></span>
+                    <table class="rwd-table">
                 <tr>
                     <th>Position</th>
-                    <th>Experience</th>
+                    <th>Required Experience</th>
                     <th>Apply Before</th>
                     <th>Job Description</th>
                 </tr>
                 <tr>
                     <td data-th="Movie Title">IT Support</td>
-                    <td data-th="Genre">Minimum 1 year</td>
-                    <td data-th="Year">1st March</td>
-                    <td data-th="Gross"><a target="_blank"  href="http://paperfly.com.bd/vacancy1.pdf"  class="jd-btn">View</a></td>
+                    <td data-th="Genre"> 1 year</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a target="_blank"  href="http://paperfly.com.bd/CP0001.pdf"  class="jd-btn">View</a></td>
                 </tr>
-             <!--    <tr>
-                    <td data-th="Movie Title">IT Support</td>
-                    <td data-th="Genre">Technical</td>
-                    <td data-th="Year">1st March</td>
-                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/Job1.pdf" class="jd-btn">View</a></td>
+             <tr>
+                    <td data-th="Movie Title">General Manager, Product Planning</td>
+                    <td data-th="Genre"> 10 years</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/CP0002.pdf" class="jd-btn">View</a></td>
                 </tr>
                 <tr>
-                    <td data-th="Movie Title">HR Executive</td>
-                    <td data-th="Genre">HR</td>
-                    <td data-th="Year">1st March</td>
-                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/Job1.pdf" class="jd-btn">View</a></td>
-                </tr> -->
+                    <td data-th="Movie Title">Relationship Manager</td>
+                    <td data-th="Genre"> 10 years</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/CP0003.pdf" class="jd-btn">View</a></td>
+                </tr> 
+                <tr>
+                    <td data-th="Movie Title">Assistant Relationship Manager</td>
+                    <td data-th="Genre"> 5 years</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a target="_blank"  href="http://paperfly.com.bd/CP0004.pdf"  class="jd-btn">View</a></td>
+                </tr>
+             <tr>
+                    <td data-th="Movie Title">Assistant Manager, Product Planning</td>
+                    <td data-th="Genre"> 2 to 5 years</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/CP0005.pdf" class="jd-btn">View</a></td>
+                </tr>
+                <tr>
+                    <td data-th="Movie Title">Assistant Manager, Market Communication</td>
+                    <td data-th="Genre"> 5 years</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/CP0006.pdf" class="jd-btn">View</a></td>
+                </tr> 
+                <tr>
+                    <td data-th="Movie Title">Assistant Manager, Customer Interaction</td>
+                    <td data-th="Genre"> 2 to 5 years</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a target="_blank"  href="http://paperfly.com.bd/CP0007.pdf"  class="jd-btn">View</a></td>
+                </tr>
+             <tr>
+                    <td data-th="Movie Title">Relationship Executive</td>
+                    <td data-th="Genre"> 1 year</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/CP0008.pdf" class="jd-btn">View</a></td>
+                </tr>
+                <tr>
+                    <td data-th="Movie Title">Executive, Product Planning</td>
+                    <td data-th="Genre"> 1 year</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/CP0009.pdf" class="jd-btn">View</a></td>
+                </tr> 
+                <tr>
+                    <td data-th="Movie Title">Executive, Customer Interaction</td>
+                    <td data-th="Genre"> 1 year</td>
+                    <td data-th="Year">23rd March</td>
+                    <td data-th="Gross"><a  target="_blank"  href="http://paperfly.com.bd/CP0010.pdf" class="jd-btn">View</a></td>
+                </tr> 
                 </table>
         </div>
        

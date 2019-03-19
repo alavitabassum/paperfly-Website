@@ -50,11 +50,14 @@
   
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-  
-  <!--On scroll animation-->
+
+
+   <!--On scroll animation-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
   <link rel='stylesheet'  href="css/onscrollanimation.css">
+
+
     </head>
     <body>
 
@@ -120,8 +123,8 @@
       <nav id="nav-menu-container">
         <ul class="nav-menu">
         <li><a href="services.php">Services</a></li>
-                <!-- <li><a href="automation.php">Automation</a></li> -->
-          <!--       <li><a href="coverage.php">Coverage</a></li> -->
+                <li><a href="automation.php">Automation</a></li>
+                <li><a href="coverage.php">Coverage</a></li>
                 <li><a href="#">Doorstep Automation</a></li>
                 <li><a href="#">Management</a></li>
                 <li><a href="merchants.php">Merchant Registration</a></li>

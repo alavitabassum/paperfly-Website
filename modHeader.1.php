@@ -37,42 +37,34 @@
             })(jQuery);
         </script>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-
-  
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  
-  <!--On scroll animation-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  <link rel='stylesheet'  href="css/onscrollanimation.css">
     </head>
     <body>
-
-  
     
     <!--------------------------- Top Navigation Bar ---------------------->
- <!--    <nav class="topNavbar" role="navigation" id="topOfPage">
+    <nav class="topNavbar" role="navigation" id="topOfPage">
         <div class="topNavDiv">
             <ul class="navlist topNav" id="pfTopnav">
                 <li><a class="navbar-brand" href="index.php"><img id="navLogo" src="./img/PFLogoFull.png" alt="Home"></a></li>
+<!--                <li><a class="navbar-brand" href="index.php"><img id="navLogo" src="./img/PFLogo2.png" alt="Home"></a></li>-->
                 <li><a href="services.php">Services</a></li>
                 <li><a href="automation.php">Automation</a></li>
                 <li><a href="coverage.php">Coverage</a></li>
-
+<!--                <li>Pricing</li>-->
+<!--                <li><a href="products.php">Products</a></li>-->
+<!--                <li><a href="promotions.php">Promotions</a></li>-->
                 <li><a href="merchants.php">Merchant Registration</a></li>
                 <li><a href="career.php">Career</a></li>
+<!--                <li>Login</li>-->
                 <li class="dropDown"><a class="dropBtn" onclick="showWingsLogin()" style="color: #00AEEF !important;">Login</a></li>
-                
+                <!--<li class="dropDown"><a class="dropBtn" onclick="showTrackingLogin()">Tracking</a>
+                    <div class="dropdownContainer" id="trackingDropdown">
+                        <div class="trackingHeader">Track your PACKAGE</div>
+                            <input type="text" placeholder="Tracking Number" id="trackingID" required>
+                            <input type="password" placeholder="Password" id="trackingPass" required>
+                            <button type="button" id="trackingButton" onclick="document.getElementById('trackingDropdown').classList.toggle('show');showModal(1);">Track! &#x00bb;</button>
+                    </div>
+                </li>-->
                 <li class="icon">
                     <a href="javascript:void(0);" onclick="mobMenu();">&#9776;</a>
                 </li>
@@ -93,6 +85,7 @@
                 <li>Invoice & Billing</li></ul>
         </div>
         <div class="rightPanel">
+<!--            <div class="wingsLoginHeader">Log into WINGs</div>-->
             <form action="http://paperflybd.com/userlogin" id="frmSignin" name="frmSignin" method="post">
                 <input type="text" placeholder="Login ID" id="wingsID" name="username" required autofocus>
                 <input type="password" placeholder="Password" id="wingsPass" name="password" required>
@@ -100,55 +93,5 @@
                 <button type="button" id="wingsCancelButton" onclick="dismissWingsModal()">Cancel</button>
             </form>
         </div>
-    </div> -->
-    <!-------------------------------------- Floating Icon -->
-
-
-    
-  <!--==========================
-  Header
-  ============================-->
-  <header id="header">
-    <div class="container">
-
-      <div id="logo" class="pull-left">
-      <a class="navbar-brand" href="index.php"><img id="navLogo" src="./img/PFLogoFull.png" alt="Home"></a>
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!--<h1><a href="#hero">Regna</a></h1>-->
-      </div>
-
-      <nav id="nav-menu-container">
-        <ul class="nav-menu">
-        <li><a href="services.php">Services</a></li>
-                <!-- <li><a href="automation.php">Automation</a></li> -->
-          <!--       <li><a href="coverage.php">Coverage</a></li> -->
-                <li><a href="#">Doorstep Automation</a></li>
-                <li><a href="#">Management</a></li>
-                <li><a href="merchants.php">Merchant Registration</a></li>
-                <li><a href="career.php">Career</a></li>
-             <!--    <li class="dropDown"><a class="dropBtn" onclick="showWingsLogin()" style="color: #00AEEF !important;">Login</a></li> -->
-                <!-- 
-                <li class="icon">
-                    <a href="javascript:void(0);" onclick="mobMenu();">&#9776;</a>
-                </li> -->
-        </ul>
-      </nav><!-- #nav-menu-container -->
     </div>
-  </header><!-- #header -->
-
-
-
-  
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+    <!-------------------------------------- Floating Icon -->

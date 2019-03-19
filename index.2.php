@@ -1,9 +1,9 @@
 <?php include 'modHeader.php';?>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-<div class="fluid-container">
-    <div class="row" style="margin-top: -3%;">
+<div class="container">
+    <div class="row">
 
-    <div class="col-12 col-sm-12 col-md-8 col-xs-12"  id="sliderContainer">
+    <div class="col-12 col-sm-6 col-md-8"  id="sliderContainer">
             <div id="item1" class="slide">
                 <a href="news.php"> <img class="sliderImg responsive_img" src="./img/3yrspf.png">
                     <div class="" id=""> <span class="thinText"></span></div>
@@ -35,9 +35,9 @@
         </div>
 
 
-        <div class="col-12 col-md-4 col-sm-12 col-xs-12" id="navDiv" style="padding-right: 0px;">
-            <div class="gotoLogin " id="navDiv1"><button type="button" class="btn loginBtn dropBtn" onclick="showWingsLogin()">Login To Wings</button></div>
-            <div id="navDiv2"><button type="button" class="btn  trackBtn">Track Order</button></div>
+        <div class="col-12 col-md-4 col-sm-12 col-xs-12" id="navDiv">
+            <div class="gotoLogin" id="navDiv1"><button type="button" class="btn btn-primary loginBtn dropBtn" onclick="showWingsLogin()">Login To Wings</button></div>
+            <div id="navDiv2"><button type="button" class="btn btn-warning trackBtn">Track Order</button></div>
         </div>
     </div>
 </div>
@@ -82,95 +82,52 @@
 	</div>
 
      </div>
+
+     <div class="row">
+
+     </div>
 </div> 
 
 
- <div class="fluid-container">
-    <div class="row">
-    <div class="promo-cards">
+<div class="col-12 col-md-4 col-sm-12 col-xs-12 item-right" data-aos="fade-right">  <img class="promo" src="./img/8.jpeg">
+<div class="col-12 col-sm-6 col-md-8 item-right-text" data-aos="zoom-out">   <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></div>
+</div>
+
+<div class="col-12 col-md-4 col-sm-12 col-xs-12 item-left" data-aos="fade-left"> <img class="promo" src="./img/7.jpg">
+<div class="col-12 col-sm-6 col-md-8 item-left-text" data-aos="zoom-out">   <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></div>
+</div>
+
+<div class="col-12 col-md-4 col-sm-12 col-xs-12 item-right" data-aos="fade-right"> <img class="promo" src="./img/6.jpg">
+<div class=" col-12 col-sm-6 col-md-8 item-right-text" data-aos="zoom-out">   <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></div>
+</div>
+
+<div class="col-12 col-md-4 col-sm-12 col-xs-12 item-left" data-aos="fade-left">   <img class="promo" src="./img/3.jpg"> 
+<div class="col-12 col-sm-6 col-md-8 item-left-text" data-aos="zoom-out">   <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></div>
+</div>
+
+<div class="col-12 col-md-4 col-sm-12 col-xs-12 item-right" data-aos="fade-right"><img class="promo" src="./img/4.jpg">
+<div class="col-12 col-sm-6 col-md-8 item-right-text" data-aos="zoom-out">   <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></div>
+</div>
+
+  <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
+
+  
+
+ <script  src="js/onscrollanimation.js"></script>
+
+
+
+
+
+       <!--  <div class="promo-cards">
             <img class="promo" src="./img/8.jpeg">
              <img class="promo" src="./img/7.jpg">
               <img class="promo" src="./img/6.jpg">
                <img class="promo" src="./img/3.jpg"> 
                <img class="promo" src="./img/4.jpg">
-            </div> 
-    </div>
-</div> 
+            </div> -->
 
-<!-- <section>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="pic-5">
-            <img class="img-fluid " src="img/pf3.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="pic-5">
-            <h4 class="display-4">Be With The Best!</h4>
-            <p style="text-align:center;">What is Lorem Ipsum?
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-            , when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-
- <!--  <div class="conatiner parallax bg-parallax">  
-      <div class="row">
-            <div class="container" style="background-color: rgba(255,255,255,.5)!important;height: 400px;    max-width: 100% !important;">
-           
-
-                
-                <div class="col-12 col-md-4 col-sm-12 col-xs-12 item-right" data-aos="fade-right"> <p>64 districts door to door delivery service with our own employees and own fleet.
-                </p>  </div>
-
-                <div class="col-12 col-md-4 col-sm-12 col-xs-12 item-left" data-aos="fade-left"> <p>64 districts cash on delivery.
-                </p> </div>
-
-                <div class="col-12 col-md-4 col-sm-12 col-xs-12 item-right" data-aos="fade-right"> <p>100% on time payment. Twice per week invoice and payment transfer.
-                </p></div>
-
-                <div class="col-12 col-md-4 col-sm-12 col-xs-12 item-left" data-aos="fade-left"> <p>One stop solution for order management, tracking, invoicing and payment.
-                </p>  </div>
-
-                <div class="col-12 col-md-4 col-sm-12 col-xs-12 item-right" data-aos="fade-right"><p>Dedicated point of contact for all updates.</p></div>
-
-                <script src='https://unpkg.com/aos@2.3.0/dist/aos.js'></script>
-
-                
-
-                <script  src="js/onscrollanimation.js"></script>
-                
-            </div>
-      </div>
-</div>
-     
-
-
-<div class="conatiner bg-parallax-mob">  
-     
-    <div class="row">
-        
-         </div class="container" style="background-color: rgba(255,255,255,.5)!important;height: 410px;max-width: 100% !important;">
-
-            <blockquote>
-            <li><img src="./img/PFfavicon32.png">64 districts door to door delivery service with our own employees and own fleet.</li>
-            <li><img src="./img/PFfavicon32.png">64 districts cash on delivery.</li>
-            <li><img src="./img/PFfavicon32.png">100% on time payment. Twice per week invoice and payment transfer.</li>
-            <li><img src="./img/PFfavicon32.png">One stop solution for order management, tracking, invoicing and payment.</li>
-            <li><img src="./img/PFfavicon32.png">Dedicated point of contact for all updates.</li>
-            </blockquote>
-               
-            </div>
-      </div>
-</div>
-      -->
-
-    <div class="hScrollerHolder">
+<!--     <div class="hScrollerHolder">
         <p class="hScrollerHeading">Delivering Happiness For</p>
         <ul id="scroller">
             <li><a target="_blank" href="https://www.daraz.com.bd/"><img src="img/Logo%20Daraz.png"></a></li>
@@ -190,11 +147,7 @@
             <li><a target="_blank" href="http://www.monno.com/public/"><img src="img/Logo%20Monno.png"></a></li>
             <li><a target="_blank" href="http://www.rohto.com.bd/"><img src="img/Logo%20Rotho.gif"></a></li>
         </ul>
-    </div> 
-
-
-
-    
+    </div> -->
     <?php
 include 'modFooter.php';
  ?>

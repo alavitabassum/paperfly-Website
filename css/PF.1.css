@@ -251,7 +251,7 @@ body {
     margin-top: 30px;
     padding-top: 20px;
    /*  border-top: 2px solid #00AEEF; */
-   background-color: #17479e;
+   background-color: #fff;
 }
 
 #navLogo {
@@ -346,7 +346,7 @@ ul.topNav li a:active {
 
 ul.bottomNav li a {
     padding: 7px;
-    color: #fff;
+    color: #000;
  /*    background-color: white; */
    /*  border-radius: 5px; */
 }
@@ -974,7 +974,7 @@ h4{
 #sliderContainer {
  
     overflow: hidden;
-    height: 500px;
+    height: 400px;
     position: relative;
     margin-top: 8%;
     float: left;
@@ -1149,11 +1149,11 @@ h4{
 }
 
 img.promo {
-    display: inline;
+
     border: 1px solid white;
-    margin: 0;
+    margin-top: -38%;
     padding: 0;
-    width: 20%;
+    width: 70%;
     height: auto;
 }
 
@@ -1912,8 +1912,8 @@ only screen and (max-width: 760px),
     }
 
 #item1,#item2, #item3, #item4{
-    width: 100%;
-    height: 500px;
+    width: 97%;
+    height: 400px;
     overflow: hidden;
   
 }
@@ -1921,7 +1921,7 @@ only screen and (max-width: 760px),
 #sliderContainer {
 
     overflow: hidden;
-    height: 500px;
+    height: 400px;
     position: relative;
     float: left;
 
@@ -1932,7 +1932,7 @@ only screen and (max-width: 760px),
     #sliderContainer {
 
         overflow: hidden;
-        height: 300px;
+        height: 400px;
         position: relative;
         float: left;
         margin-left:2%;
@@ -1970,7 +1970,7 @@ only screen and (max-width: 760px),
 
 #item1,#item2, #item3, #item4{
     width: 100%;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
   
 }
@@ -2036,7 +2036,7 @@ only screen and (max-width: 760px),
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
-    background-image: url(../img/hiring_banner.jpg);
+    background-image: url(../img/hero1.png);
   }
   
   header.masthead .masthead-content {
@@ -2282,7 +2282,6 @@ only screen and (max-width: 760px),
 .apply_now_section span{
     float: right;
     margin-right: 5%;
-    margin-top:-3%;
 }
 
 .apply_now_section h3{
@@ -2402,7 +2401,7 @@ only screen and (max-width: 760px),
 #navDiv1 {
     width: 100%;
     float: left;
-    height: 250px;
+    height: 200px;
     background-color: blue;
     color: white;
  
@@ -2410,65 +2409,33 @@ only screen and (max-width: 760px),
 #navDiv2 {
     width: 100%;
     float: left;
-    height: 250px;
+    height: 200px;
     background-color: red;
     color: white;
 }
 .loginBtn{
-/* color: #fff!important;
-    background-color: #007bff!important;
-    border-color: #007bff!important;
-    -webkit-box-shadow: 2px 2px 3px 0 #414448;
-    box-shadow: 2px 2px 3px 0 #414448;
+    color: #414448 !important;
+    background-color: #fff !important;
+    border-color: #fff !important;
+    box-shadow: 2px 2px 3px 0px #414448;
     margin-left: 28%;
     width: 136px;
-    padding: 10px!important; */
-
-    color: #fff!important;
-    /* background-color: #007bff!important; */
-    /* border-color: #007bff!important; */
-    /* -webkit-box-shadow: 2px 2px 3px 0 #414448; */
-    /* box-shadow: 2px 2px 3px 0 #414448; */
-    color: #fff!important;
-    /* margin-left: 2%; */
-    margin: 2%;
-    width: 96%;
-    padding: 10px!important;
-    background-color: Transparent!important;
-    border: none!important;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    font-size: 2.75em!important;
-    font-weight: 100!important;
-    text-shadow: 1px 0 1px white;
-    height: 233px;
+    padding: 10px !important;
 }
 
 .trackBtn{
     color: #fff;
-    margin: 2%;
-    width: 96%;
-    padding: 10px!important;
-    background-color: Transparent!important;
-    border: none!important;
-    background-repeat: no-repeat;
-    border: none;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    font-size: 2.75em!important;
-    font-weight: 100!important;
-    text-shadow: 1px 0 1px white;
-    height: 235px;
+   
+    box-shadow: 2px 2px 3px 0px #584a1fc7;
+    margin-left: 28%;
+    width: 136px;
+    padding: 10px !important;
 }
 
 #navDiv1 {
     background: linear-gradient(#17479e40, #17479e40), url(../img/wingspic.jpg) scroll center center;
     background-size: cover;
-  /*  padding: 80px 0;  */
+    padding: 80px 0;
     border-bottom: 0.5px solid white;
     border-left: 1.5px solid white;
   /*   background: linear-gradient(0deg,#00aeef 0%,#17479e 100%);
@@ -2482,7 +2449,7 @@ only screen and (max-width: 760px),
   #navDiv2 {
     background: linear-gradient(#17479e40, #17479e40), url(../img/trackerimg.jpg) scroll center center;
     background-size: cover;
-  /*   padding: 80px 0; */
+    padding: 80px 0;
     border-top: 0.5px solid white;
     border-left: 1.5px solid white;
   
@@ -2563,102 +2530,45 @@ only screen and (max-width: 760px),
     box-shadow: 0px 2px 4px 1px lightgrey;
 }
 
-.display-4{
-    font-size: 2rem !important;
-    font-weight: 300;
-    line-height: 1.2;
-    color: #004085;
-    background-color: rgba(255, 255, 255, 0.5) !important;
-    text-align:center;
-}
-.parallax {
-    /* The image used */
-    background-image:url(../img/cvg_any.jpg);
-  
-    /* Set a specific height */
-    min-height: 400px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
-
-.row{
-    margin-right: 0px !important;
-}
-.item-right {
-    height: 80px;
-    margin: 1.5% 3%;
-    padding: 0%;
-    font-size: 1em;
-    background: #00aeef;
-    color: #FFF;
-    text-align: center;
-
+  .item-right {
+    width: 200px;
+    height: 200px;
+    margin: 4% 4%;
+    padding: 20%;
+    /* background: #ccc; */
+    /* text-align: left; */
+    /* color: #FFF; */
+    font-size: 3em;
   }
 
   .item-left {
     width: 200px;
-    height: 80px;
-    margin: -3% 65%;
-    /* padding-top: 51px; */
-    background: #00aeef;
-    text-align: center;
+    height: 200px;
+    margin: 50px 70%;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: left;
     color: #FFF;
-    font-size: 1em;
-
+    font-size: 3em;
   }
-  .item-right p{
-    padding-left: 3%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .item-left p{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  @media screen and (max-width:425px){
-      .bg-parallax{
-        display: none;
-      }
-      .bg-parallax-mob{
-        display:block;
-        background-color: #f8f9fa;
-        margin-left: 2%;
-        color: #16469e;
-        font-size: 1em;
-        padding: 10%;
-        text-align: left;
-    }
-
-    .bg-parallax-mob blockquote li {
-        border-bottom: 1px solid white;
-        padding-top: 2%;
-        padding-bottom: 2%;
-        font-size: 1em;
-    }
-  }
-
-  @media screen and (min-width:426px){
-    .bg-parallax-mob{
-      display: none;
-    }
-
-}
   
-.dropBtn:active, .dropBtn:focus, .dropBtn:hover {
-    border: 1px solid white !important;
-    border-radius: 0% !important;
+  .item-right-text{
+    width: 205%;
+    height: 200px;
+    margin: -100% 108%;
+    /* padding-top: 75px; */
+    background: #ccc;
+    text-align: left;
+    color: #495057;
+    font-size: .45em;
   }
-
-  .trackBtn:active, .trackBtn:focus, .trackBtn:hover {
-    border: 1px solid white !important;
-    border-radius: 0% !important;
+  .item-left-text{
+    width: 200px;
+    height: 200px;
+    margin: 50px 70%;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: left;
+    color: #FFF;
+    font-size: 0.5em;
   }

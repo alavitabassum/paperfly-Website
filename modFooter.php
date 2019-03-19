@@ -7,6 +7,9 @@
             <li><a href="./aboutus.php">About Us</a></li>
             <li><a href="./contact.php">Contact</a></li>
             <li><a href="./news.php">News Room</a></li>
+            <li><a href="./automation.php">Automation</a></li>
+            <li><a href="./coverage.php">Coverage</a></li>
+
         </ul>
     </div>
 </nav>
